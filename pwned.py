@@ -19,8 +19,10 @@ noPasswordFound = True
 for foundHash in arrayOfHashes:
     split = foundHash.split(":")
     if passwordHash[5:] == split[0]:
-        print("{} was found\nHash {}, {} occurences".format(password, passwordHash, split[1]))
+        occurrences = "1 occurrence" if split[1] == "1" else "{:,d} occurrences".format(int(split[1]))
+        print("{} was found\nHash {}, {}".format(password, passwordHash, occurrences))
         noPasswordFound = False
 
 if noPasswordFound:
     print("{} was not found".format(password))
+    
