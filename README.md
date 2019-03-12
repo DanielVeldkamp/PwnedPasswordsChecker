@@ -15,7 +15,7 @@ In the [Computerphile video "Have You Been Pwned?"](https://www.youtube.com/watc
 
 ---
 
-## How to use:
+## Usage
 
 * Use Python 3
 * Before running the script, download the requests Python module by going into CMD and typing `pip install requests`
