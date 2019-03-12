@@ -15,6 +15,6 @@ In the [Computerphile video "Have You Been Pwned?"](https://www.youtube.com/watc
 
 How to use:
 
-⋅⋅* Use Python 3
-⋅⋅* Before running the script, download the requests Python module by going into CMD and typing `pip install requests`
-⋅⋅* Use the script by calling it this way in CMD: `python pwned.py PasswordToCheck`
+* Use Python 3
+* Before running the script, download the requests Python module by going into CMD and typing `pip install requests`
+* Use the script by calling it this way in CMD: `python pwned.py passwordToCheck`
